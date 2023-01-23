@@ -4,144 +4,207 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Thiago Laredo - Desenvolvedor e UI/UX Designer</title>
-  <meta name="description" content="Desenvolvo projetos utilizando apenas HTML, CSS e Javascript">
+  <title>Thiago Laredo - Desenvolvedor e Designer</title>
+  <meta name="description" content="Desenvolvo projetos web utilizando HTML, CSS e Javascript">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300&family=Sintony:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
 </head>
 
 <body>
   <header class="header">
-    <img src="./img/marca.svg" alt="Lobo" width="229" height="42">
+    <a href="./index.html">
+      <img class="logo" src="./img/logo.svg">
+    </a>
     <nav>
-      <ul class="header-menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#contato">Contato</a></li>
+      <ul class="menu">
+        <a href="portifolio.html">
+          <li>Projetos</li>
+        </a>
+        <a href="#Formacao">
+          <li>Formação</li>
+        </a>
+        <a href="#contato">
+          <li>Contato</li>
+        </a>
       </ul>
     </nav>
   </header>
-  <main class="introducao">
-    <img src="./img/perfil.png" alt="Lobo" width="364" height="364">
-    <div>
-      <h1>Desenvolvedor</br>
-        Front End &</br>
-        UX/UI Designer</h1>
+
+  <main class="intro">
+    <div class="borda">
+      <img src="./img/avatarblack.png">
+    </div>
+    <div class="texto">
+      <h1>Desenvolvedor<br> <span class="azul">Front End</span> e <br><span class="verde">UX/UI Designer</span></h1>
       <p>Localizado em São Paulo.</p>
     </div>
   </main>
 
+  <section class="Experiencia" id="Projetos" aria-label="Projetos">
+    <h1 class="titulo">Projetos</h1>
+    <div class="projetos-container">
+      <p class="experiencia-texto">Faço layouts de <strong>sites</strong> utilizando temas <strong>Wordpress</strong> ou desenvolvendo do zero com <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascripit</strong>, como este site aqui.
 
-  <section class="experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
-    <div>
-      <p class="experiencia-texto">Desenvolvo projetos utilizando apenas <strong>HTML</strong>, <strong>CSS</strong> e <strong>Javascript
-        </strong>. Para aplicativos web como a rede social Dogs.</p>
+      <div class="projetos">
+        <span class="tipo">2021</span>
+        <div>
 
-      <div class="empresa">
-        <span class="ano">2045</span>
-        <h3 class="empresa-titulo">Bickcraft </h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">Desenvolvo pequenos projetos como Bickcraft utilizando apenas HTML, CSS e Javascript. Para aplicativos web como a rede social Dogs.</p>
-        <ul class="empresa-habilidades">
+          <h3 class="titulo-projetos">Glue</h3>
+          <p class="texto-projetos">Gestão de carreira para talentos do audivisual em publicidade </p>
+        </div>
+
+        <ul class="linguagens">
+          <li>Wordpress</li>
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
           <li>UX Design</li>
           <li>UI Design</li>
+          <li>SEO</li>
+
         </ul>
+
+        <a href="https://gluehere.co/" target="_blank" class="botão">Ver Site</a>
+
+      </div>
+      <div class="projetos">
+        <span class="tipo">2022</span>
+        <div>
+
+          <h3 class="titulo-projetos">Pace</h3>
+          <p class="texto-projetos">Clínica de Fisioterapia e Preparação Física</p>
+        </div>
+
+        <ul class="linguagens">
+          <li>Wordpress</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>UX Design</li>
+          <li>UI Design</li>
+          <li>SEO</li>
+          <li>Fotografia</li>
+
+        </ul>
+
+        <a href="https://www.clinicapace.com.br/" target="_blank" class="botão">Ver Site</a>
+
+
+
       </div>
 
-      <div class="empresa">
-        <span class="ano">2045</span>
-        <h3 class="empresa-titulo">Bickcraft </h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">Desenvolvo pequenos projetos como Bickcraft utilizando apenas HTML, CSS e Javascript. Para aplicativos web como a rede social Dogs.</p>
-        <ul class="empresa-habilidades">
+      <div class="projetos">
+        <span class="tipo">2022</span>
+        <div>
+
+          <h3 class="titulo-projetos">Brigitte Filmes</h3>
+          <p class="texto-projetos">Produtora de Filmes para Publicidade </p>
+        </div>
+
+        <ul class="linguagens">
+          <li>Wordpress</li>
+
           <li>HTML</li>
           <li>CSS</li>
           <li>Javascript</li>
           <li>UX Design</li>
           <li>UI Design</li>
+          <li>SEO</li>
+
         </ul>
+
+        <a href="https://brigittefilmes.com.br/" target="_blank" class="botão">Ver Site</a>
+
       </div>
 
-      <div class="empresa">
-        <span class="ano">2045</span>
-        <h3 class="empresa-titulo">Bickcraft </h3>
-        <span class="empresa-titulo">Desenvolvedor Júnior</span>
-        <p class="empresa-texto">Desenvolvo pequenos projetos como Bickcraft utilizando apenas HTML, CSS e Javascript. Para aplicativos web como a rede social Dogs.</p>
-        <ul class="empresa-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript</li>
-          <li>UX Design</li>
-          <li>UI Design</li>
-        </ul>
+
+      <div class="btn-todos">
+        <a href="./portifolio.html">VER TODOS</a>
       </div>
+
     </div>
   </section>
 
-  <section class="fundo">
-    <div class="formacao" id="formacao" aria-label="Formação">
-      <h2 class="subtitulo">Formação</h2>
+
+
+  <section class="fundo" id="Formacao" aria-label="Formação">
+    <div class="formacao">
+      <h1 class="titulo titulo-formacao">Formação</h1>
       <div>
-        <p class="formacao-texto">Minha mais recente experiência acadêmica foi o mestrado em UX Design. Blablablablablabla</p>
+        <p class="formacao-texto">Minha mais recente experiência foram cursos intensivos online de <strong>HTML</strong>, <strong>CSS</strong> e <strong>UI Design</strong> na <strong>Origamid</strong>.
+        </p>
 
-        <ul class="faculdade-lista">
-          <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso"> Administrador de Empresas</h3>
-            <span class="faculdade-instituicao">PUC</span>
+
+        <ul class="curso-lista">
+
+          <li class="escola">
+            <span>Iniciante</span>
+            <div class="flex">
+              <h3>HTML / CSS</h3>
+              <span class="carga-horaria">46h</span>
+            </div>
+            <div class="flex">
+              <p>Origamid</p>
+              <a href="https://www.origamid.com/certificate/bc9a4b62" target="_blank"> <img src="./img/download.svg"></a>
+            </div>
           </li>
 
-          <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso">Design</h3>
-            <span class="faculdade-instituicao">PUC</span>
-          </li>
-
-          <li class="faculdade">
-            <span class="faculdade-tipo">Bacharel</span>
-            <h3 class="faculdade-curso"> Administrador de Empresas</h3>
-            <span class="faculdade-instituicao">PUC</span>
+          <li class="escola">
+            <span>Iniciante</span>
+            <div class="flex">
+              <h3>UX / UI Design</h3>
+              <span class="carga-horaria">32h</span>
+            </div>
+            <div class="flex">
+              <p>Origamid</p>
+              <img src="./img/download.svg">
+            </div>
           </li>
         </ul>
-
-        <div class="formacao-extra">
-
-          <div class="cursos">
-            <h3>Cursos Intensivos</h3>
-            <ul>
-              <li>UX & UI Design<span>56h</span></li>
-              <li>Front End para Iniciantes<span>58h</span></li>
-            </ul>
+        <div>
+          <div class="formacao-extra">
+            <h3>Graduação</h3>
+            <p>Adm. de Empresas / PUC - SP
+            <p>
           </div>
 
-
-          <div class="idiomas">
-            <h3>Idiomas</h3>
+          <div class="habilidades">
+            <h3>Habilidades</h3>
             <ul>
-              <li>Inglês<span>/Fluente</span></li>
-              <li>Inglês<span>/Básico</span></li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
             </ul>
           </div>
 
         </div>
       </div>
-    </div>
   </section>
 
-  <footer class="footer" id="contato">
-    <div class="footer-container">
-      <p class="footer-texto">Estou disponível para novos projetos. Entre em contato comigo e marcamos uma conversa.</p>
-      <ul class="footer-contato">
-        <li>thiago@olatu.com.br</li>
-        <li>11 99941-5321</li>
-        <li>Linkedin</li>
-      </ul>
-      <p class="footer-copy">Olatu Todos os Direitos Reservados</p>
+  <footer class="fundo-rodape" id="contato" aria-label="Contato">
+    <div class="rodape-container">
+      <div class="contato">
+        <p>Estou disponível para novos projetos. Entre em contato comigo e marcamos uma conversa.</p>
+        <ul>
+          <li>thiago@olatu.com.br</li>
+          <li><a href="https://api.whatsapp.com/send?phone=5511999415321" target="_blank">11 99941-5321</a></li>
+
+        </ul>
+      </div>
+
+
+      <div class="copy">
+        <img src="./img/infinito.svg">
+        <span>Thiago Laredo Todos os Direitos Reservados</span>
+      </div>
     </div>
+
   </footer>
+
+
+
 
 </body>
 
