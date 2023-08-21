@@ -121,7 +121,7 @@
 
 @media (max-width: 800px) {
   .projetos {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 15px;
   }
 

@@ -109,6 +109,15 @@
 }
 
 @media (max-width: 800px) {
+
+  .portifolio-container {
+    padding: 24px 20px;
+  }
+
+  .portifolio {
+    grid-template-columns: 1fr;
+    gap: 16px 20px;
+  }
   .portifolio-lista {
     display: grid;
     grid-template-columns: 1fr;
