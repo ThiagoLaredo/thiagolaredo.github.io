@@ -195,10 +195,10 @@
 
   .formacao-extra h3::before {
     content: "";
-    background-image: url("../img/habilidades.svg");
+    background-image: url("../img/graduacao.svg");
     background-repeat: no-repeat;
-    width: 18px;
-    height: 18px;
+    width: 25px;
+    height: 15px;
     position: absolute;
     bottom: 25px;
     left: 0;
