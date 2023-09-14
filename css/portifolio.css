@@ -121,23 +121,6 @@
   .portifolio-lista {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 80px;
-  }
-  .projetos {
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-  }
-
-  .Experiencia {
-    grid-template-columns: 1fr;
-    gap: 20px;
-    padding: 30px 20px;
-  }
-
-  .experiencia-texto {
-    font-size: 1rem;
-    line-height: 1.2;
-    max-width: none;
-    margin-bottom: 30px;
+    gap: 60px;
   }
 }

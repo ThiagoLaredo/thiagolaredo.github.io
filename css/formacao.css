@@ -2,12 +2,15 @@
   background-color: #242833;
 }
 
-.formacao {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 100px 20px;
+}
+
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   gap: 100px;
 }
 
@@ -161,21 +164,43 @@
 
 @media (max-width: 800px) {
 
+  .container {
+    padding: 60px 20px;
+  }  
+
   .curso-lista {
     grid-template-columns: 1fr;
   }
+
   .formacao {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 30px 20px;
+
   }
 
   .titulo-formacao {
     color: #989ea6;
   }
 
-  .formacao-extra,
-  .habilidades {
-    padding-left: 30px;
+  .habilidades h3::before {
+    content: "";
+    background-image: url("../img/habilidades.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+  }
+
+  .formacao-extra h3::before {
+    content: "";
+    background-image: url("../img/habilidades.svg");
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
   }
 }

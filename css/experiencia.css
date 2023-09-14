@@ -121,26 +121,27 @@
 
 @media (max-width: 800px) {
   .projetos {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 15px;
   }
 
   .Experiencia {
     grid-template-columns: 1fr;
     gap: 20px;
-    padding: 30px 20px;
+    padding: 60px 20px;
   }
 
   .titulo {
     color: #989ea6;
-    font-size: 1.6rem;
+    font-size: 2rem;
     line-height: 1.3;
     font-weight: bold;
     word-break: normal;
     text-transform: none;
   }
   .experiencia-texto {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.2;
     max-width: none;
     margin-bottom: 30px;
